@@ -115,6 +115,7 @@ int main(int argc, char** argv) {
 //
 // If it prints "correct" then the architecture should be here, in the "correct" section.
 #if defined(_M_X64) || defined(__x86_64__) || \
+    defined(__loongarch__) || defined(__loongarch64) || \
     defined(__ARMEL__) || defined(__avr32__) || defined(_M_ARM) || defined(_M_ARM64) || \
     defined(__hppa__) || defined(__ia64__) || \
     defined(__mips__) || \
